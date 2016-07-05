@@ -8,14 +8,37 @@ public class ContactInfo {
     private String phone;
     private String skype;
     private String mail;
+    private String country;
+    private String city;
+
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
 
     public ContactInfo() {
     }
 
-    public ContactInfo(String phone, String skype, String mail) {
+    public ContactInfo(String phone, String skype, String mail, String city, String country) {
         this.phone = phone;
         this.skype = skype;
         this.mail = mail;
+        this.city = city;
+        this.country = country;
+
     }
 
     public String getPhone() {
