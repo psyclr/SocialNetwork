@@ -22,6 +22,7 @@ public class Like {
 
     public void setUsersId(List<Long> usersId) {
         this.usersId = usersId;
+
     }
 
     @Override
